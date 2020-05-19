@@ -1,0 +1,12 @@
+<div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+  <div class="uk-offcanvas-bar">
+    <a class="uk-logo" href="index.html">Docs</a>
+    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+    <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-top">
+      <li {% if page.url == "/" %}class="uk-active"{% endif %}>><a href="/">Home</a></li>
+      <li {% if page.url == "/docs" %}class="uk-active"{% endif %}>><a href="/docs">Docs</a></li>
+      <li {% if page.url == "/help-support" %}class="uk-active"{% endif %}>><a href="/docs/help-support">Help &amp; Support</a></li>
+      <li {% if page.url == "/legal" %}class="uk-active"{% endif %}>><a href="/legal">Legal</a></li>
+    </ul>
+  </div>
+</div>

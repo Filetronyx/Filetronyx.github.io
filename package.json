@@ -1,0 +1,14 @@
+{
+  "name": "filetronyx-docs",
+  "version": "1.0.0",
+  "description": "Filetronyx is a platform for rapidly building healthcare apps without worrying about security and data concerns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "awesomplete": "^1.1.5",
+    "uikit": "^3.4.6"
+  }
+}
